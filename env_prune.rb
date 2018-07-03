@@ -1,27 +1,6 @@
 #!/usr/bin/env ruby
 require 'find'
 
-#########################################################
-# Usage
-# ruby env_prune.rb
-#
-# Args
-#
-# -d
-# Comma seperated list of directories to search
-# -d=app,config
-#
-# -f
-# Comma seperated list of file extensions to search
-# -f=rb,html
-#
-# -e
-# The name of the ENV file
-# -e=.env
-#
-# -v
-# Enable verbose output
-#########################################################
 class EnvPrune
   $env_file = './.env'
   $envs = {}
