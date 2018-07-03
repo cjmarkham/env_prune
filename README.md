@@ -1,5 +1,7 @@
-# env_prune
+# ENV Prune
 Find out which ENV variables can be removed from your .env file
+
+**Warning** The ENV variables listed are just ones that are unused in your code. Some ENV variables could be used by other third party applications such as Rails gems. Always make sure they aren't used by another application before removing.
 
 # Usage
 `ruby env_prune.rb`
