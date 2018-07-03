@@ -1,4 +1,10 @@
 #!/usr/bin/env ruby
+
+#################################
+# Created by Cjmarkham
+# https://github.com/cjmarkham
+#################################
+
 require 'find'
 
 class EnvPrune
